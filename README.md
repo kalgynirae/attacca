@@ -1,4 +1,4 @@
-*Attaca*
+*Attacca*
 ========
 
 *The geolocation-powered remote theme music activator.*
@@ -17,7 +17,7 @@
 How it works
 ------------
 
-*Attaca* consists of two simple services: one that keeps track of users'
+*Attacca* consists of two simple services: one that keeps track of users'
 **homeness** and exposes a simple HTTP API, and one that polls the server
 and plays the user's theme music whenever the user arrives home. The user can
 employ whatever method he/she wishes to notify the server of arrivals and
@@ -44,8 +44,8 @@ Setup
 
 1.  Clone this repository.
 
-        $ git clone https://github.com/kalgynirae/attaca.git
-        $ cd attaca
+        $ git clone https://github.com/kalgynirae/attacca.git
+        $ cd attacca
 
 2.  Run the client script.
 
@@ -55,8 +55,8 @@ Setup
 
 1.  Clone this repository.
 
-        $ git clone https://github.com/kalgynirae/attaca.git
-        $ cd attaca
+        $ git clone https://github.com/kalgynirae/attacca.git
+        $ cd attacca
 
 2.  Create a virtualenv.
 
