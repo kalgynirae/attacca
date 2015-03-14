@@ -1,17 +1,16 @@
 from flask import Flask
 app = Flask(__name__)
-
 homeness = {}
 
 @app.route("/<name>/arrive")
 def arrive(name):
     homeness[name] = True
-    return "%s arrived!\n" % name
+    return ""
 
 @app.route("/<name>/depart")
 def depart(name):
     homeness[name] = False
-    return "%s departed!\n" % name
+    return ""
 
 @app.route("/<name>/ishome")
 def ishome(name):
