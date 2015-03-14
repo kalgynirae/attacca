@@ -23,7 +23,7 @@ Setup
 
 2.  Run the client script.
 
-        $ ./client.sh colin theme.mp3
+        $ ./client.sh <server> <name> <theme_music>
 
 ### Server
 
