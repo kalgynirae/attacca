@@ -1,7 +1,18 @@
 *Attaca*
 ========
 
-The geolocation-powered remote music activator.
+*The geolocation-powered remote theme music activator.*
+
+    The age-old expression is once again voiced--
+    "Which method of entrance is prudently choiced?"
+    From much speculation a case doth egress
+    And after review we're obliged to confess:
+
+    There's not a more marvelous way to announce
+    Your arrival to everyone there in the house
+    Than by playing theme music with volume cranked high,
+    With singing and dancing and family nearby!
+    A fitting hoopla for this day of the Pi.
 
 How it works
 ------------
@@ -17,9 +28,14 @@ particular area.
 Prerequisites
 -------------
 
-*   Python 3 (and `virtualenv`)
+### Client
+
 *   `curl`
 *   `mplayer`
+
+### Server
+
+*   Python 3 (and `virtualenv`)
 
 Setup
 -----
@@ -29,6 +45,7 @@ Setup
 1.  Clone this repository.
 
         $ git clone https://github.com/kalgynirae/attaca.git
+        $ cd attaca
 
 2.  Run the client script.
 
@@ -39,6 +56,7 @@ Setup
 1.  Clone this repository.
 
         $ git clone https://github.com/kalgynirae/attaca.git
+        $ cd attaca
 
 2.  Create a virtualenv.
 
