@@ -8,9 +8,18 @@ How it works
 
 *Attaca* consists of two simple services: one that keeps track of users'
 **homeness** and exposes a simple HTTP API, and one that polls the server
-and plays the user's theme music whenever the user arrives home. The user uses
-an application (such as [Geofencer]) on his/her mobile device to notify the
-server whenever the user enters a particular area.
+and plays the user's theme music whenever the user arrives home. The user can
+employ whatever method he/she wishes to notify the server of arrivals and
+departures. The authors recommend the use of a geofencing application that can
+make HTTP requests (e.g., [Geofencer] or [Tasker]) whenever the user enters a
+particular area.
+
+Prerequisites
+-------------
+
+*   Python 3 (and `virtualenv`)
+*   `curl`
+*   `mplayer`
 
 Setup
 -----
@@ -44,3 +53,4 @@ Setup
         $ env/bin/python server.py
 
 [Geofencer]: https://play.google.com/store/apps/details?id=com.arpacell.fencer
+[Tasker]: http://tasker.dinglisch.net/
